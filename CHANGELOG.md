@@ -1,5 +1,22 @@
 # Changelog
 
+## [11.6.3](https://github.com/npm/cli/compare/v11.6.2...v11.6.3) (2025-10-16)
+### Bug Fixes
+* [`49a4eef`](https://github.com/npm/cli/commit/49a4eefd613dbb60bcff3dac39129f70586d3cff) [#8676](https://github.com/npm/cli/pull/8676) use look behind regex for trailing slash stripping (#8676) (@wraithgar)
+* [`b1aee62`](https://github.com/npm/cli/commit/b1aee62082d7b25ec07f64e906afd76840907fbd) [#8645](https://github.com/npm/cli/pull/8645) dep flag calculation (#8645) (@liamcmitchell)
+### Chores
+* [`4bff14b`](https://github.com/npm/cli/commit/4bff14b536f70b998b38ca984cbcab94a6c65bf9) [#8670](https://github.com/npm/cli/pull/8670) write tarball to testDir (#8670) (@wraithgar)
+* [`679486b`](https://github.com/npm/cli/commit/679486b095f262d478daa21629d01f68f0240c9b) [#8672](https://github.com/npm/cli/pull/8672) fix lockfile (#8672) (@wraithgar)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.1.7): `@npmcli/arborist@9.1.7`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v8.0.10): `libnpmdiff@8.0.10`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v10.1.9): `libnpmexec@10.1.9`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.10): `libnpmfund@7.0.10`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v9.0.10): `libnpmpack@9.0.10`
+
 ## [11.6.2](https://github.com/npm/cli/compare/v11.6.1...v11.6.2) (2025-10-08)
 ### Bug Fixes
 * [`c54d1e9`](https://github.com/npm/cli/commit/c54d1e96f37e7fd4bf2645c4905535c9b3d93e3b) [#8633](https://github.com/npm/cli/pull/8633) progress bar code cleanup (#8633) (@wraithgar)
